@@ -181,11 +181,11 @@
 
         raise {
             bindings = <
-&none   &none   &none     &none     &none      &none            &trans  &none   &none     &none     &none      &none          &none
-&none   &none   &kp HOME  &kp UP    &kp END    &kp PG_UP        &trans  &none   &kp HOME  &kp UP    &kp END    &kp PG_UP      &none
-&none   &none   &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN    &trans  &none   &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN  &none
-&none   &none   &none     &none     &none      &none            &trans  &none   &none     &none     &none      &none          &none
-&trans  &trans  &trans    &trans    &trans     &trans           &trans  &trans  &trans    &trans    &trans     &trans
+&none           &none   &none     &none     &none      &none            &trans  &none   &none     &none     &none      &none          &none
+&none           &none   &kp HOME  &kp UP    &kp END    &kp PG_UP        &trans  &none   &kp HOME  &kp UP    &kp END    &kp PG_UP      &none
+&none           &none   &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN    &trans  &none   &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN  &none
+&kp LEFT_SHIFT  &none   &none     &none     &none      &none            &trans  &none   &none     &none     &none      &none          &kp RIGHT_SHIFT
+&trans          &trans  &trans    &trans    &trans     &trans           &trans  &trans  &trans    &trans    &trans     &trans
             >;
 
             display-name = "raise";

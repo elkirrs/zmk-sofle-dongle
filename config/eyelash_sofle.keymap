@@ -152,7 +152,8 @@
         AT_MCLK: AT_MCLK {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp AT>;
+            bindings = <&macro_press>, <&kp AT>;
+
             label = "AT_MCLK";
         };
     };

@@ -148,6 +148,16 @@
 
             label = "SHIFT_MCLK";
         };
+
+        AT_MCLK: AT_MCLK {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp AMPS &kp POUND &kp N6 &kp N4 &kp SEMI>;
+
+            label = "AT_MCLK";
+        };
     };
 
     keymap {
@@ -172,7 +182,7 @@
 &kp TILDE       &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &mmv MOVE_DOWN   &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp N9    &kp N0     &kp EQUAL
 &kp GRAVE       &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT     &mmv MOVE_LEFT   &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LPAR  &kp RPAR   &kp SEMICOLON
 &kp LEFT_SHIFT  &none            &none         &none         &none         &none           &mmv MOVE_RIGHT  &none         &none          &kp QUESTION  &kp DOT   &kp COMMA  &kp COLON
-&kp C_MUTE      &trans           &trans        &trans        &trans        &trans          &mkp LCLK        &trans        &trans         &trans        &trans    &trans
+&kp C_MUTE      &trans           &trans        &trans        &trans        &trans          &mkp LCLK        &trans        &trans         &trans        &trans    &AT_MCLK
             >;
 
             display-name = "lower";

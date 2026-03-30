@@ -19,3 +19,5 @@ include:
     shield: eyelash_sofle_peripheral_right nice_view
   - board: nice_nano_v2
     shield: settings_reset
+
+#https://nickcoutsos.github.io/keymap-editor/

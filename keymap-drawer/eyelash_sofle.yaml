@@ -125,8 +125,8 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - KP DOT
-  - KP COMMA
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - GLOBE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

@@ -124,29 +124,50 @@
 
         comma {
             bindings = <&kp COMMA>;
-            key-positions = <28 29>;
+            key-positions = <42 43>;
         };
 
         dot {
             bindings = <&kp DOT>;
-            key-positions = <35 36>;
+            key-positions = <47 48>;
+        };
+
+        pipe_c {
+            bindings = <&fn_pipe>;
+            key-positions = <36 37>;
+        };
+
+        pipe_array {
+            bindings = <&fn_array>;
+            key-positions = <28 30>;
+        };
+
+        pipe_ex {
+            bindings = <&fn_ex>;
+            key-positions = <34 36>;
         };
     };
 
     macros {
-        SHIFT_MCLK: SHIFT_MCLK {
+        fn_array: fn_array {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_SHIFT>,
-                <&macro_press>,
-                <&mkp MB3>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&kp LEFT_SHIFT &mkp MB3>;
+            bindings = <&kp EQUAL &kp GREATER_THAN>;
+            label = "FN_ARRAY";
+        };
 
-            label = "SHIFT_MCLK";
+        fn_ex: fn_ex {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS &kp GREATER_THAN>;
+            label = "FN_EX";
+        };
+
+        fn_pipe: fn_pipe {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp PIPE &kp GREATER_THAN>;
+            label = "FN_PIPE";
         };
     };
 
@@ -156,10 +177,10 @@
         default {
             bindings = <
 &kp ESC     &kp N1     &kp N2        &kp N3        &kp N4  &kp N5        &kp UP_ARROW     &kp N6     &kp N7         &kp N8     &kp N9           &kp N0    &kp PRINTSCREEN
-&kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T         &kp DOWN_ARROW   &kp Y      &kp U          &kp I      &kp O            &kp P     &kp LEFT_BRACE
+&kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T         &kp DOWN_ARROW   &kp Y      &kp U          &kp I      &kp O            &kp P     &kp LEFT_BRACKET
 &kp CAPS    &kp A      &kp S         &kp D         &kp F   &kp G         &kp LEFT_ARROW   &kp H      &kp J          &kp K      &kp L            &kp SEMI  &kp APOS
-&kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B         &kp RIGHT_ARROW  &kp N      &kp M          &kp COMMA  &kp DOT          &kp FSLH  &kp RIGHT_BRACE
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp RETURN    &kp ENTER        &kp SPACE  &kp BACKSPACE  &mo 2      &kp RIGHT_SHIFT  &mo 3
+&kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B         &kp RIGHT_ARROW  &kp N      &kp M          &kp COMMA  &kp DOT          &kp FSLH  &kp RIGHT_BRACKET
+&kp C_MUTE  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &mo 1   &kp RETURN    &kp ENTER        &kp SPACE  &kp BACKSPACE  &mo 2      &kp RIGHT_SHIFT  &mo 3
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;

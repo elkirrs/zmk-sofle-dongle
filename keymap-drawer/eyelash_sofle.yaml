@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   default:
-  - $$mdi:keyboard-esc$$
+  - Q
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -15,42 +15,42 @@ layers:
   - {t: '0', s: )}
   - PRINTSCREEN
   - $$mdi:keyboard-tab$$
-  - {t: Q, h: Sft+Q}
-  - {t: W, h: Sft+W}
-  - {t: E, h: Sft+E}
-  - {t: R, h: Sft+R}
-  - {t: T, h: Sft+T}
+  - {t: Q, h: '$$mdi:gesture-tap-hold$$'}
+  - W
+  - E
+  - R
+  - T
   - $$mdi:arrow-down-bold$$
-  - {t: Y, h: Sft+Y}
-  - {t: U, h: Sft+U}
-  - {t: I, h: Sft+I}
-  - {t: O, h: Sft+O}
-  - {t: P, h: Sft+P}
-  - {t: '[', h: 'Sft+[', s: '{'}
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '[', s: '{'}
   - $$mdi:apple-keyboard-caps$$
-  - {t: A, h: Sft+A}
-  - {t: S, h: Sft+S}
-  - {t: D, h: Sft+D}
-  - {t: F, h: Sft+F}
-  - {t: G, h: Sft+G}
+  - A
+  - S
+  - D
+  - F
+  - G
   - $$mdi:arrow-left-bold$$
-  - {t: H, h: Sft+H}
-  - {t: J, h: Sft+J}
-  - {t: K, h: Sft+K}
-  - {t: L, h: Sft+L}
-  - {t: ;, h: Sft+;, s: ':'}
-  - {t: ., h: Sft+.}
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - .
   - $$mdi:apple-keyboard-shift$$
-  - {t: Z, h: Sft+Z}
-  - {t: X, h: Sft+X}
-  - {t: C, h: Sft+C}
-  - {t: V, h: Sft+V}
-  - {t: B, h: Sft+B}
+  - Z
+  - X
+  - C
+  - V
+  - B
   - $$mdi:arrow-right-bold$$
-  - {t: N, h: Sft+N}
-  - {t: M, h: Sft+M}
-  - {t: ',', h: 'Sft+,', s: <}
-  - {t: ., h: Sft+., s: '>'}
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: ']', s: '}'}
   - $$mdi:volume-off$$
@@ -112,8 +112,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&fn_language'
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: \, s: '|'}
+  - {t: /, s: '?'}
   - '?'
   - {t: ., s: '>'}
   - {t: ',', s: <}
@@ -125,8 +125,8 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP DOT
+  - KP COMMA
   - GLOBE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

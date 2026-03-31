@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - '{'
+  - {t: '[', s: '{'}
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
@@ -52,11 +52,11 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - '}'
+  - {t: ']', s: '}'}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
   - lower
   - RETURN
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -293,7 +293,13 @@ combos:
   k: '}'
 - p: [36, 35]
   k: {t: '=', s: +}
-- p: [28, 29]
+- p: [42, 43]
   k: {t: ',', s: <}
-- p: [35, 36]
+- p: [47, 48]
   k: {t: ., s: '>'}
+- p: [36, 37]
+  k: '&fn_pipe'
+- p: [28, 30]
+  k: '&fn_array'
+- p: [34, 36]
+  k: '&fn_ex'

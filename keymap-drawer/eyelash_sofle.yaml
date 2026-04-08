@@ -15,7 +15,7 @@ layers:
   - {t: '0', s: )}
   - PRINTSCREEN
   - $$mdi:keyboard-tab$$
-  - {t: Q, h: '$$mdi:gesture-tap-hold$$'}
+  - Q
   - W
   - E
   - R

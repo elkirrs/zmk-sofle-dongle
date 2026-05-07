@@ -60,8 +60,8 @@ layers:
   - lower
   - RETURN
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
   - raise
   - $$mdi:apple-keyboard-shift$$
   - adjust
@@ -109,7 +109,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '-', s: _}
   - '&fn_language'
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: \, s: '|'}
@@ -126,7 +126,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&fn_language'
   - GLOBE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

@@ -48,7 +48,7 @@ layers:
   - {t: B, h: Sft+B}
   - $$mdi:arrow-right-bold$$
   - {t: N, h: Sft+N}
-  - {t: M, h: M}
+  - {t: M, h: Sft+M}
   - {t: ',', h: 'Sft+,', s: <}
   - {t: ., h: Sft+., s: '>'}
   - {t: /, s: '?'}

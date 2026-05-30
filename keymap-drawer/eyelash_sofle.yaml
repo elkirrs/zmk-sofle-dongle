@@ -106,17 +106,17 @@ layers:
   - )
   - {t: ;, s: ':'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '-', s: _}
   - '&fn_language'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Sft+\, s: Sft+|}
+  - {t: '-', s: _}
+  - +
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: \, s: '|'}
   - {t: /, s: '?'}
-  - '?'
-  - {t: ., s: '>'}
   - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - '?'
   - ':'
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}

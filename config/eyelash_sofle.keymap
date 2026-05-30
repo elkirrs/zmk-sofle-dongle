@@ -221,7 +221,7 @@
 &kp ESCAPE  &kp N1       &kp N2        &kp N3        &kp N4       &kp N5         &kp UP_ARROW     &kp N6         &kp N7       &kp N8               &kp N9           &kp N0             &fn_pscrin_mac_os
 &kp TAB     &mt LS(Q) Q  &mt LS(W) W   &mt LS(E) E   &mt LS(R) R  &mt LS(T) T    &kp DOWN_ARROW   &mt LS(Y) Y    &mt LS(U) U  &mt LS(I) I          &mt LS(O) O      &mt LS(P) P        &mt LS(LBKT) LBKT
 &kp CAPS    &mt LS(A) A  &mt LS(S) S   &mt LS(D) D   &mt LS(F) F  &mt LS(G) G    &kp LEFT_ARROW   &mt LS(H) H    &mt LS(J) J  &mt LS(K) K          &mt LS(L) L      &mt LS(SEMI) SEMI  &mt LS(APOS) APOS
-&kp LSHFT   &mt LS(Z) Z  &mt LS(X) X   &mt LS(C) C   &mt LS(V) V  &mt LS(B) B    &kp RIGHT_ARROW  &mt LS(N) N    &mt M M      &mt LS(COMMA) COMMA  &mt LS(DOT) DOT  &kp FSLH           &kp RIGHT_BRACKET
+&kp LSHFT   &mt LS(Z) Z  &mt LS(X) X   &mt LS(C) C   &mt LS(V) V  &mt LS(B) B    &kp RIGHT_ARROW  &mt LS(N) N    &mt LS(M) M  &mt LS(COMMA) COMMA  &mt LS(DOT) DOT  &kp FSLH           &kp RIGHT_BRACKET
 &kp C_MUTE  &kp LCTRL    &kp LEFT_ALT  &kp LEFT_GUI  &mo 1        &kp RETURN     &kp ENTER        &kp BACKSPACE  &kp SPACE    &mo 2                &kp RIGHT_SHIFT  &mo 3
             >;
 

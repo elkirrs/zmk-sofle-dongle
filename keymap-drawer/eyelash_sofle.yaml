@@ -235,7 +235,7 @@ layers:
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:bluetooth-off$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - grb
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -300,7 +300,7 @@ layers:
   - RGB SAI
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB BRI
   - RGB BRD
@@ -324,7 +324,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
 combos:
 - p: [13, 26]
   k: '~'
@@ -386,5 +386,3 @@ combos:
 - p: [34, 36]
   k: '&fn_ex'
   l: [default]
-- p: [63, 39]
-  k: {t: '$$mdi:minus-circle-outline$$', type: none}

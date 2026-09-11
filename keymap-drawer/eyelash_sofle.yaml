@@ -274,8 +274,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
-  - RGB ON
+  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB TOG
   - RGB HUI
   - RGB HUD
   - {t: '$$mdi:transfer$$', type: trans}
@@ -285,8 +285,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB HUD
   - RGB HUI
-  - RGB ON
-  - RGB OFF
+  - RGB TOG
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB SAI
